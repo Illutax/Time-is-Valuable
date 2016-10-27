@@ -19,8 +19,8 @@ $RECYCLE.BIN/
 
 # Unity
 *.meta
-Library\
-Temp\
+Library/
+Temp/
 
 #Visual Studio
 *.suo

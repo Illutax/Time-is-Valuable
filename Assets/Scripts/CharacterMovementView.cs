@@ -30,7 +30,7 @@ public class CharacterMovementView : MonoBehaviour
         if (direction != Vector3.zero)
         {
             Animator.SetFloat("DirectionX", direction.x);
-            Animator.SetFloat("DirectionY", direction.y);
+            Animator.SetFloat("DirectionZ", direction.z);
         }
 
         Animator.SetBool("IsMoving", m_MovementModel.IsMoving());

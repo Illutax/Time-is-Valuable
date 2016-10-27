@@ -11,31 +11,37 @@ public class CharacterMovementKeyboardControl : CharacterMovementBaseControl
     void Update()
     {
         UpdateDirection();
+        CheckForJump();
+    }
 
+    void CheckForJump() {
+        if (Input.GetKeyDown( KeyCode.Space )) {
+            Jump();
+        }
     }
 
     void UpdateDirection()
     {
-        Vector2 newDirection = Vector2.zero;
+        Vector3 newDirection = Vector3.zero;
 
-        if (Input.GetKey(KeyCode.W))
+        if (Input.GetAxisRaw("Vertical") > 0)
         {
-            newDirection.y += 1;
+            newDirection.z += 1;
         }
 
-        if (Input.GetKey(KeyCode.S))
+        if (Input.GetAxisRaw( "Vertical") < 0)
         {
-            newDirection.y += -1;
+            newDirection.z -= 1;
         }
 
-        if (Input.GetKey(KeyCode.A))
-        {
-            newDirection.x += -1;
-        }
-
-        if (Input.GetKey(KeyCode.D))
+        if (Input.GetAxisRaw( "Horizontal") > 0)
         {
             newDirection.x += 1;
+        }
+
+        if (Input.GetAxisRaw( "Horizontal") < 0)
+        {
+            newDirection.x -= 1;
         }
 
         SetDirection(newDirection);

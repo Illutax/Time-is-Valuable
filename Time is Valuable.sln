@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Time is Valuable.CSharp", "Time is Valuable.CSharp.csproj", "{624DCDDE-838F-07DE-6DFF-9BBE27BA116C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{624DCDDE-838F-07DE-6DFF-9BBE27BA116C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{624DCDDE-838F-07DE-6DFF-9BBE27BA116C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{624DCDDE-838F-07DE-6DFF-9BBE27BA116C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{624DCDDE-838F-07DE-6DFF-9BBE27BA116C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

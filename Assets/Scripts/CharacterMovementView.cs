@@ -3,7 +3,7 @@ using System.Collections;
 
 public class CharacterMovementView : MonoBehaviour
 {
-    public Animator Animator;
+    public Animator Animator; // blub
 
     private CharacterMovementModel m_MovementModel;
 

@@ -541,7 +541,7 @@ PlayerSettings:
   XboxOne::VR::enabledDevices: []
   iOS::VR::enabledDevices: []
   tvOS::VR::enabledDevices: []
-  cloudProjectId: 
-  projectName: 
-  organizationId: 
+  cloudProjectId: 0958adae-90c5-4b01-8002-bf2d45c83dfb
+  projectName: Time is Valuable
+  organizationId: illu07
   cloudEnabled: 0

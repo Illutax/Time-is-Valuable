@@ -63,6 +63,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\CameraController.cs" />
     <Compile Include="Assets\Scripts\CharacterMovementBaseControl.cs" />
     <Compile Include="Assets\Scripts\CharacterMovementKeyboardControl.cs" />
     <Compile Include="Assets\Scripts\CharacterMovementModel.cs" />

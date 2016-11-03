@@ -16,7 +16,7 @@ public class CharacterMovementKeyboardControl : CharacterMovementBaseControl
 
     void CheckForJump() {
         if (Input.GetKeyDown( KeyCode.Space )) {
-            Jump();
+            Jump(); // miau
         }
     }
 
